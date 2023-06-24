@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+:root {
+  background-color: white !important;
+  --textColor: #090909;
+  
+  --electroTheme: #59FBB0;   /*light green*/
+  --tranceTheme: #FCC941;  /*yellow-ish mustard*/
+  --newDarkTheme: #FF3E33;  /*bright red*/
+  --oldSchoolTheme: #386CFE; /*light navy*/
+
+  --mainFont: 'Poppins', sans-serif;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
